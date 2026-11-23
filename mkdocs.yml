@@ -1,0 +1,21 @@
+site_name: 一本海外移居手册
+site_description: 全球移民与海外居留指南
+site_author: RUN
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
